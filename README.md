@@ -17,3 +17,6 @@ This replication package is organized according to the following structure.
 3.1 mapping1to5                 # a folder contatinig results fo the negotiation process where the ethical principles are ranked between 1 and 5.
 3.2 mapping1to50                # a folder contatinig results fo the negotiation process where the ethical principles are ranked between 1 and 50.
 3.3 mapping1to1000              # a folder contatinig results fo the negotiation process where the ethical principles are ranked between 1 and 1000.
+```
+
+# Ethics-based Negotiation
