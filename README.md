@@ -1,14 +1,14 @@
 # Ethics-based Negotiation
 Replication package of the study on ethics-based negotiation between two autonomous agents where each agent represents a user and utilizes its ethical prefrences for ethical decision-making.
 
-This study has been designed, developed, and reported by the following investigators:
+<!--This study has been designed, developed, and reported by the following investigators:
 
 - [Mashal Afzal Memon](https://scholar.google.com/citations?user=Mnu_k-8AAAAJ&hl=en) (University of L'Aquila, Italy)
 - [Gian Luca Scoccia](https://scholar.google.com/citations?user=y8EX4DAAAAAJ&hl=en) (Gran Sasso Science Institute, Italy)
 - [Marco Autili](https://scholar.google.com/citations?user=s8F7eWIAAAAJ&hl=en&oi=ao) (University of L'Aquila, Italy)
 - [Paola Inverardi](https://scholar.google.com/citations?user=x8XlRFgAAAAJ&hl=en&oi=ao) (Gran Sasso Science Institute, Italy)
 
-For any information, interested researchers can contact us by writing an email to [mashalafzal.memon@graduate.univaq.it](mailto:mashalafzal.memon@graduate.univaq.it)
+For any information, interested researchers can contact us by writing an email to [mashalafzal.memon@graduate.univaq.it](mailto:mashalafzal.memon@graduate.univaq.it)!>
 
 # Structure of the replication package
 This replication package is organized according to the following structure.
