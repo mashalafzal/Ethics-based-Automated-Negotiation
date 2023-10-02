@@ -9,8 +9,8 @@ This replication package is organized according to the following structure.
 2. running code                 # a folder containing the python scripts to perform the experiment.
 
 2.1 all_functions.py            # a python script containing functions to generate the required input and other functions to carry on the negotiation. This script is self-contained, it does not depend on other scripts.
-2.2 negotiation.ipynb           # a jupyter notebook containing the main negotiation class. This notebook is dependent on the all_functions.py script.
-2.3 loop.py                     # a python script containing a loop to perform the negotiation for desired number of iterations and record the data of entire negotiation process in a combined csv file.
+2.2 negotiation.ipynb           # a jupyter notebook containing the main negotiation class. This notebook is dependent on the all_functions.py.
+2.3 loop.py                     # a python script containing a loop to perform the negotiation for desired number of iterations and record the data of entire negotiation process in a combined csv file. This script is dependent on negotiation.ipynb and all_functions.py.
 
 3. results                      # a folder containing results of the experiment performed on various input size.
 
