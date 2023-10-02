@@ -24,15 +24,5 @@ This replication package is organized according to the following structure.
 3. results                      # a folder containing results of the experiment performed on various input size.
 
 3.1 mapping1to5                 # a folder contatinig results fo the negotiation process where the ethical principles are ranked between 1 and 5.
-
-3.1.1 best_mapping1to5.pdf      # a PDF file containing results of negotiation process where each agent follows the tactic to send an offer randomly from its 10% of best offers according to its own ethical profile.
-3.1.2 max_mapping1to5.pdf       # a PDF file containing results of negotiation process where each agent follows the tactic to send the offer that has maximum utility according to its own ethical profile.
-3.1.3 random_mapping1to5.pdf    # a PDF file containing results of negotiation process where each agent follows the tactic to send an offer randomly from all posisble alternatives.
-
 3.2 mapping1to50                # a folder contatinig results fo the negotiation process where the ethical principles are ranked between 1 and 50.
-
-3.2.1 mapping1to50.pdf          # a PDF file containing results of negotiation process where each agent follows the tactic to send an offer randomly from its 10% of best offers according to its own ethical profile.
-
 3.3 mapping1to1000              # a folder contatinig results fo the negotiation process where the ethical principles are ranked between 1 and 1000.
-
-3.3.1 mapping1to1000.pdf        # a PDF file containing results of negotiation process where each agent follows the tactic to send an offer randomly from its 10% of best offers according to its own ethical profile. 
