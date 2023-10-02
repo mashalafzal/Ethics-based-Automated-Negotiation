@@ -19,4 +19,4 @@ This replication package is organized according to the following structure.
 3.3 mapping1to1000              # a folder contatinig results fo the negotiation process where the ethical principles are ranked between 1 and 1000.
 ```
 
-# Ethics-based Negotiation
+# How to run the experiment
