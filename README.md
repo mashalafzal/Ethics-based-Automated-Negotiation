@@ -11,13 +11,14 @@ This replication package is organized according to the following structure.
 2.1 all_functions.py                      # a python script containing functions to generate the required input and other functions to carry on the negotiation. This script is self-contained, it does not depend on other scripts.
 2.2 negotiation.ipynb                     # a jupyter notebook containing the main negotiation class. This notebook is dependent on the all_functions.py.
 2.3 loop.py                               # a python script containing a loop to perform the negotiation for desired number of iterations and record the data of entire negotiation process in a combined csv file. This script is dependent on negotiation.ipynb and all_functions.py.
+2.4 plots.ipynb                           # a jupyter notebook containing the code to generate box plots.
 
 3. iteration data                         # a folder containing csv file obtained through each iteration
 
 4. results                                # a folder containing results of the experiment performed on various input size.
 
-4.1 negotiation_rounds.pdf                            # a pdf file containing results for the total number of negotiation rounds argued between both agents at each proportion of input.
-4.2 computation_time.pdf                              # a pdf file containing results of the total computation time taken to carry on the experiment at each proportion of input.
+4.1 negotiation_rounds.pdf                # a pdf file containing results for the total number of negotiation rounds argued between both agents at each proportion of input.
+4.2 computation_time.pdf                  # a pdf file containing results of the total computation time taken to carry on the experiment at each proportion of input.
 4.3 sender_offer_generation_time.pdf      # a pdf file containing result of computation time taken by sender agent to evaluate alternative of offers to start negotiation at each proportion of input.
 4.4 receiver_offer_generation_time.pdf    # a pdf file containing result of computation time taken by receiver agent to evaluate alternative of offers to start negotiation at each proportion of input.
 4.5 decsion_making_time.pdf               # a pdf file containing results for the decision-making time before the negotiation concludes at each proportion of input size at each proportion of input.
