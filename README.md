@@ -22,6 +22,7 @@ This replication package is organized according to the following structure.
 # How to run the experiment
 * To run the experiments, you need Python version 3.9.12 or higher. 
 * From running code folder, download all_functions.py, negotiation.ipynb and loop.py files.
-* In all_functions.py, navigate to the functions generate_user_inputs, generate_profiles and generate_tasks function and define the input size.
-* Then, navigate to functions assign_data_to_profiles and craete_task_implication to define the ratio of affected principles.
-* In loop.py, modify the num_run to desired number for iterations.
+* In all_functions.py, navigate to the functions generate_user_inputs, generate_profiles and generate_tasks function and specify the input size.
+* Then, navigate to functions assign_data_to_profiles and craete_task_implication to specify the ratio of affected principles.
+* To rank ethical principles on your desired range, modify the generate_profiles to specify the desired range.
+* In loop.py, specify the num_run to desired number for iterations.
