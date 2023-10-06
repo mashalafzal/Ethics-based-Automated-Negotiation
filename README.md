@@ -12,13 +12,17 @@ This replication package is organized according to the following structure.
 2.2 negotiation.ipynb                     # a jupyter notebook containing the main negotiation class. This notebook is dependent on the all_functions.py.
 2.3 loop.py                               # a python script containing a loop to perform the negotiation for desired number of iterations and record the data of entire negotiation process in a combined csv file. This script is dependent on negotiation.ipynb and all_functions.py.
 
-3. results                                # a folder containing results of the experiment performed on various input size.
+3. raw data
 
-3.1 rounds.pdf                            # a pdf file containing results for the total number of negotiation rounds argued between both agents at each proportion of input.
-3.2 time.pdf                              # a pdf file containing results of the total computation time taken to carry on the experiment at each proportion of input.
-3.3 decsion_making_time.pdf               # a pdf file containing results for the decision-making time before the negotiation concludes at each proportion of input size at each proportion of input.
-3.4 sender_offer_generation_time.pdf      # a pdf file containing result of computation time taken by sender agent to evaluate alternative of offers to start negotiation at each proportion of input.
-3.4 receiver_offer_generation_time.pdf     # a pdf file containing result of computation time taken by receiver agent to evaluate alternative of offers to start negotiation at each proportion of input.
+4. results                                # a folder containing results of the experiment performed on various input size.
+
+4.1 rounds.pdf                            # a pdf file containing results for the total number of negotiation rounds argued between both agents at each proportion of input.
+4.2 time.pdf                              # a pdf file containing results of the total computation time taken to carry on the experiment at each proportion of input.
+4.3 sender_offer_generation_time.pdf      # a pdf file containing result of computation time taken by sender agent to evaluate alternative of offers to start negotiation at each proportion of input.
+4.4 receiver_offer_generation_time.pdf    # a pdf file containing result of computation time taken by receiver agent to evaluate alternative of offers to start negotiation at each proportion of input.
+4.5 decsion_making_time.pdf               # a pdf file containing results for the decision-making time before the negotiation concludes at each proportion of input size at each proportion of input.
+
+4. raw data                               # a folder containing csv file obtained through each iteration
 
 ```
 
@@ -29,3 +33,5 @@ This replication package is organized according to the following structure.
 * Then, navigate to functions assign_data_to_profiles and craete_task_implication to specify the ratio of affected principles.
 * To rank ethical principles on your desired range, modify the generate_profiles to specify the desired range.
 * In loop.py, specify the num_run to desired number for iterations.
+
+* To change the tactic for sending offer, modify the negotiation.ipynb. For exmaple, change find_best_offer with find_random_offer to send an offer randomly or with find_max_utility_offer to always send teh offer that has high utility.
