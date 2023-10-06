@@ -1,5 +1,5 @@
 # Ethics-based Negotiation
-Replication package of the study on ethics-based negotiation between two autonomous agents where each agent represents a user and utilizes its ethical prefrences for ethical decision-making.
+Replication package of the study on ethics-based negotiation between two autonomous agents where each agent represents a user and utilizes its ethical preferences to negotiate with other agent for ethical decision-making.
 
 # Structure of the replication package
 This replication package is organized according to the following structure.
@@ -20,3 +20,4 @@ This replication package is organized according to the following structure.
 ```
 
 # How to run the experiment
+To run the experiments, you need Python version 3.9.12 or higher. From running code folder, download all_functions.py, negotiation.ipynb and loop.py files. In all_functions.py, navigate to the functions generate_user_inputs, generate_profiles and generate_tasks function and define the input size. Then, navigate to functions assign_data_to_profiles and craete_task_implication to define the ratio of affected principles.
