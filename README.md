@@ -34,4 +34,4 @@ This replication package is organized according to the following structure.
 * To rank ethical principles on your desired range, modify the generate_profiles to specify the desired range.
 * In loop.py, specify the num_run to desired number for iterations.
 
-* To change the tactic for sending offer, modify the negotiation.ipynb. For exmaple, change find_best_offer with find_random_offer to send an offer randomly or with find_max_utility_offer to always send teh offer that has high utility.
+* To change the tactic for sending offer, modify the negotiation.ipynb. Th desired functions are already predefined in all_functions.py. In negotiation.ipynb, modify find_best_offer as find_random_offer to send an offer randomly or as find_max_utility_offer to always send teh offer that has high utility.
