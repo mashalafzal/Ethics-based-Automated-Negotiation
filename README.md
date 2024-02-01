@@ -1,5 +1,5 @@
 # Ethics-based Negotiation
-Replication package of the study on ethics-based negotiation between two autonomous agents where each agent represents a user and utilizes its ethical preferences to negotiate with other agent for ethical decision-making.
+Replication package of ethics-based negotiation approach in which autonomous systems utilize user's ethical preferences to negotiate with each other and reach an agreemnet that satisfies ethical beliefs of all parties involved.
 
 ![parking](https://github.com/mashalafzal/Ethics-based-Automated-Negotiation/assets/99733316/6e02a8f5-9635-4d6f-9513-2297a9a94a7d)
 
@@ -11,10 +11,10 @@ This replication package is organized according to the following structure.
 
 2. running code                           # a folder containing the python scripts to perform the experiment.
 
-2.1 all_functions.py                      # a python script containing functions to generate the required input and other functions to carry on the negotiation. This script is self-contained, it does not depend on other scripts.
+2.1 all_functions.py                      # a python script containing functions to generate the required input and supported functions to carry on the negotiation. This script is self-contained, it does not depend on any other script.
 2.2 negotiation.ipynb                     # a jupyter notebook containing the main negotiation class. This notebook is dependent on the all_functions.py.
-2.3 loop.py                               # a python script containing a loop to perform the negotiation for desired number of iterations and record the data of entire negotiation process in a combined csv file. This script is dependent on negotiation.ipynb and all_functions.py.
-2.4 plots.ipynb                           # a jupyter notebook containing the code to generate box plots.
+2.3 loop.py                               # a python script containing a loop to perform the negotiation for desired number of iterations. It records the data of entire negotiation process in a combined csv file. This script is dependent on negotiation.ipynb and all_functions.py.
+2.4 plots.ipynb                           # a jupyter notebook containing the code to generate box plots of outcome of ethics-based negotiation.
 
 3. iteration data                         # a folder containing csv file obtained through each iteration
 
