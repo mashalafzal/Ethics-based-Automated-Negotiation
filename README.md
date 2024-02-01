@@ -11,7 +11,7 @@ Replication package of ethics-based negotiation approach in which autonomous sys
 
 --The vehicles exchange offers and evaluates them based on their passenger's ethical profile until an agreement is reached or one of them quit the negotiation.
 
---When teh agreemnet is reached, one of the vehicles claim the availble parking space and the other vehicle looks for the new parking space.
+--When the agreement is reached, one of the vehicles gets the available parking space and the other vehicle looks for the new parking space.
 
 
 
