@@ -1,5 +1,5 @@
 # Ethics-based Negotiation
-Replication package of ethics-based negotiation approach in which autonomous systems utilize user's ethical preferences to negotiate with each other and reach an agreemnet that satisfies ethical beliefs of all parties involved.
+Replication package of ethics-based negotiation approach in which autonomous systems utilize user's ethical preferences to negotiate with each other and reach an agreement that satisfies ethical beliefs of all parties involved.
 
 ![parking](https://github.com/mashalafzal/Ethics-based-Automated-Negotiation/assets/99733316/6e02a8f5-9635-4d6f-9513-2297a9a94a7d)
 
@@ -16,25 +16,26 @@ This replication package is organized according to the following structure.
 2.3 loop.py                               # a python script containing a loop to perform the negotiation for desired number of iterations. It records the data of entire negotiation process in a combined csv file. This script is dependent on negotiation.ipynb and all_functions.py.
 2.4 plots.ipynb                           # a jupyter notebook containing the code to generate box plots of outcome of ethics-based negotiation.
 
-3. iteration data                         # a folder containing csv file obtained through each iteration
+3. iteration data                         # a folder containing csv files obtained through each iteration during negotiation.
 
 4. results                                # a folder containing results of the experiment performed on various input size.
 
-4.1 negotiation_rounds.pdf                # a pdf file containing results for the total number of negotiation rounds argued between both agents at each proportion of input.
+4.1 negotiation_rounds.pdf                # a pdf file containing results for the total number of negotiation rounds argued between both autonomous systems at each proportion of input.
 4.2 computation_time.pdf                  # a pdf file containing results of the total computation time taken to carry on the experiment at each proportion of input.
-4.3 sender_offer_generation_time.pdf      # a pdf file containing result of computation time taken by sender agent to evaluate alternative of offers to start negotiation at each proportion of input.
-4.4 receiver_offer_generation_time.pdf    # a pdf file containing result of computation time taken by receiver agent to evaluate alternative of offers to start negotiation at each proportion of input.
-4.5 decsion_making_time.pdf               # a pdf file containing results for the decision-making time before the negotiation concludes at each proportion of input size at each proportion of input.
+4.3 sender_offer_generation_time.pdf      # a pdf file containing result of computation time taken by sender autonomous system for generating and evaluating offers during negotiation at each proportion of input.
+4.4 receiver_offer_generation_time.pdf    # a pdf file containing result of computation time taken by receiver autonomous system for generating and evaluating offers during negotiation at each proportion of input.
+4.5 decision_making_time.pdf               # a pdf file containing results for the decision-making time before the negotiation concludes at each proportion of input.
 
 
 ```
 
 # How to run the experiment
 * To run the experiments, you need Python version 3.9.12 or higher. 
-* From running code folder, download all_functions.py, negotiation.ipynb and loop.py files.
-* In all_functions.py, navigate to the functions generate_user_inputs, generate_profiles and generate_tasks function and specify the input size.
-* Then, navigate to functions assign_data_to_profiles and craete_task_implication to specify the ratio of affected principles.
-* To rank ethical principles on your desired range, modify the generate_profiles to specify the desired range.
-* In loop.py, specify the num_run to desired number for iterations.
+* From running code folder, download all_functions.py, negotiation.ipynb, loop.py files and plots.ipynb.
+* In all_functions.py, navigate to the functions generate_user_inputs, generate_profiles and generate_tasks to specify the input size.
+* Then, navigate to functions assign_data_to_profiles and create_task_implication to specify the ratio of affected principles.
+* To rank ethical principles on your desired scale, modify the generate_profiles to specify the desired range. At the moment, the range is set between 1 to 5.
+* In loop.py, specify the num_run to run the experiment for desired number for iterations.
+* Run plots.ipynb to generate box plot of ethics-based negotiation at different input size with multiple iterations. Navigate to the directory where your output files are saved.
 
-* To change the tactic for sending offer, modify the negotiation.ipynb. Th desired functions are already predefined in all_functions.py. In negotiation.ipynb, modify find_best_offer as find_random_offer to send an offer randomly or as find_max_utility_offer to always send teh offer that has high utility.
+* To change the tactic for sending offer, modify the negotiation.ipynb. Th desired functions are already predefined in all_functions.py. In negotiation.ipynb, modify find_best_offer as find_random_offer to send any offer randomly from all possible alternatives or as find_max_utility_offer to always send the offer that has high utility among all possible offers.
