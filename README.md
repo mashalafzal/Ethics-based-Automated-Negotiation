@@ -3,6 +3,10 @@ Replication package of ethics-based negotiation approach in which autonomous sys
 
 ![parking](https://github.com/mashalafzal/Ethics-based-Negotiation/assets/99733316/fc0b4adc-9651-471c-acb9-dc8bc8fd4574)
 
+--The users upload their ethical profiles through a companion application and set their goal. In this case, the goal is to drive to a specific destination.
+-- The autonomous system
+
+
 
 # Structure of the replication package
 This replication package is organized according to the following structure.
