@@ -1,7 +1,7 @@
 # Ethics-based Negotiation
 Replication package of ethics-based negotiation approach in which autonomous systems utilize user's ethical preferences to negotiate with each other and reach an agreement that satisfies ethical beliefs of all parties involved.
 
-![parking](https://github.com/mashalafzal/Ethics-based-Automated-Negotiation/assets/99733316/6e02a8f5-9635-4d6f-9513-2297a9a94a7d)
+![parking](https://github.com/mashalafzal/Ethics-based-Negotiation/assets/99733316/fc0b4adc-9651-471c-acb9-dc8bc8fd4574)
 
 
 # Structure of the replication package
