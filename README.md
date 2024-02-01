@@ -3,13 +3,13 @@ Replication package of ethics-based negotiation approach in which autonomous sys
 
 ![parking](https://github.com/mashalafzal/Ethics-based-Negotiation/assets/99733316/fc0b4adc-9651-471c-acb9-dc8bc8fd4574)
 
---The user uploads their ethical profile through a companion application. The ethical profile is used by the autonomous system to control its autonomy. The user also specify the goal. In this case, the autonomous system is the autonomous vehicle and the goal is to drive the passenger to a specific destination.
+--The user uploads their ethical profile through a companion application. The ethical profile is used by the autonomous system to control its autonomy. The user also specifies the goal. In this case, the autonomous system is an autonomous vehicle and the goal is to drive the passenger to a destination.
 
---The autonomous vehicle drive and reach at the destination specifies by its passenger and finds an available parking. The other vehicle carrying another passenger is also trying to get the same available parking space.
+--The autonomous vehicle drives and reaches at the destination and finds an available parking. The other vehicle carrying another passenger is also trying to get the same available parking space.
 
---Both autonomous vehicles negotiate with each other to claim available parking space. 
+--Both autonomous vehicles negotiate with each other to get the available parking space. 
 
---The vehicles evaluates the exchange of offers based on their passenger's ethical profile untill an agreement is reached or any of them quit the negotiation.
+--The vehicles exchange offers and evaluates them based on their passenger's ethical profile until an agreement is reached or one of them quit the negotiation.
 
 --When teh agreemnet is reached, one of the vehicles claim the availble parking space and the other vehicle looks for the new parking space.
 
