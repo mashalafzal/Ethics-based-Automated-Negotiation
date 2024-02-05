@@ -49,5 +49,5 @@ This replication package is organized according to the following structure.
 * Then, navigate to functions assign_data_to_profiles and create_task_implication to specify the ratio of affected principles.
 * To rank ethical principles on your desired scale, modify the generate_profiles to specify the desired range. At the moment, the range is set between 1 to 5.
 * In loop.py, specify the num_run to run the experiment for desired number for iterations.
-* Run plots.ipynb to generate box plot of ethics-based negotiation at different input size with multiple iterations. Navigate to the directory where your output files are saved.
+* Run plots.ipynb to generate box plot for the output of ethics-based negotiation at different input size with multiple iterations. Navigate to the directory where your output files are saved.
 
