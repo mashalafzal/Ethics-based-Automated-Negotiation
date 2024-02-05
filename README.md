@@ -39,6 +39,8 @@ This replication package is organized according to the following structure.
 
 
 ```
+# Disclaimer
+* You do not need to provide any input, the input will be generated automatically. You just have to provide the size of input following the inscructions below in how to run experiment section.
 
 # How to run the experiment
 * To run the experiments, you need Python version 3.9.12 or higher. 
