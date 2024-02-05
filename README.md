@@ -49,4 +49,3 @@ This replication package is organized according to the following structure.
 * In loop.py, specify the num_run to run the experiment for desired number for iterations.
 * Run plots.ipynb to generate box plot of ethics-based negotiation at different input size with multiple iterations. Navigate to the directory where your output files are saved.
 
-* To change the tactic for sending offer, modify the negotiation.ipynb. Th desired functions are already predefined in all_functions.py. In negotiation.ipynb, modify find_best_offer as find_random_offer to send any offer randomly from all possible alternatives or as find_max_utility_offer to always send the offer that has high utility among all possible offers.
