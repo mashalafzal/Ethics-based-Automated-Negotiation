@@ -370,7 +370,8 @@ def calculate_new_random_utility(Sender_offer, receiver, agents, Receiver_offer)
 
     return sender_utility, receiver_utility, utility
 
-################ to change tactic
+#####  To try more
+################ change tactic to always choose offer with max utility
 
 #find max utility offer for receiver
 def find_max_utility_offer(offers):
@@ -394,7 +395,7 @@ def find_max_utility_offer(offers):
 
 
 
-#find max utility offer for sender
+#find max utility offer for sender when using tactic of choosing offer with max utility
 def find_max_utility_offer(offers):
     
     S_sorted_offers = sorted(offers.items(), key=lambda x: x[1]['utility'], reverse=True)
@@ -409,7 +410,7 @@ def find_max_utility_offer(offers):
     return S_offer, S_utility, S_remaining_offers, S_sorted_offers
 
 
-# dummy function to use in round 2 and more
+# dummy function to use in round 2 and more when using tactic of choosing offer with max utility
 def dummy_max_offer(remaining_offers):
 
     # Find the offer with the highest utility
@@ -424,7 +425,9 @@ def dummy_max_offer(remaining_offers):
 
     return R_offer, R_utility, remaining_offers
 
-#find random offer for receiver
+
+################ change tactic to always choose offer randomly
+#find random offer for receiver when using tactic of choosing offer randomly
 def find_random_offer(offers):
 
     R_all_offers = offers
@@ -436,9 +439,7 @@ def find_random_offer(offers):
 
     return R_offer, R_utility, R_remaining_offers, R_all_offers
 
-
-
-#find random offer for sender
+#find random offer for sender when using tactic of choosing offer randomly
 def find_random_offer(offers):
 
     S_all_offers = offers
@@ -451,8 +452,7 @@ def find_random_offer(offers):
     return S_offer, S_utility, S_remaining_offers, S_all_offers
 
 
-
-##### dummy random offer to use in round 2 and more
+##### dummy random offer to use in round 2 and more when using tactic of choosing offer randomly
 def dummy_random_offer(remaining_offers):
 
     selected_condition = random.choice(list(remaining_offers.keys()))
